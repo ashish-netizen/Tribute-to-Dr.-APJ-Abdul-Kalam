@@ -1,0 +1,169 @@
+.navbar{ 
+    background-color: black;
+}
+
+.middle{
+    background-color: black;
+}
+        .margin {
+            margin-bottom: 45px;
+            padding-top: 60px;
+        }
+
+        .bg-2 {
+
+            color: #ffffff;
+        }
+
+        a[target] {
+            color: #ffffff;
+        }
+
+        .g11 {
+            height: 350px;
+        }
+        .g11 h2{
+            text-align: center;
+        }
+
+        .g11 p{
+            padding: 8px;
+        }
+
+        .g22 {
+            height: 500px;
+
+        }
+
+        .g22 img {
+            height: 80%;
+            width: 80%;
+            margin: 25px;
+            border-radius: 4px;
+
+        }
+
+        .rowsetting2 {
+            margin: 100px 0px !important;
+        }
+
+        .achievement {
+
+            height: 300px;
+            width: 100%;
+            color: #ffffff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: black;
+        }
+
+        .facts {
+
+            margin-top: 50px;
+
+
+        }
+
+        .facts p {
+            text-align: center;
+
+        }
+
+
+        .facts li {
+            padding: 10px;
+            text-align: justify;
+        }
+
+        .site-section {
+  
+	text-align: center;
+	margin: 10px 0;
+	padding: 10px 0;
+}
+
+#social-wrapper {
+	text-align: center;
+}
+
+/*Social Media Icons*/
+.social-wrapper {
+	text-align: center;
+}
+
+.social-wrapper ul li {
+	display: inline;
+	margin: 0 5px;
+}
+
+.twitter-icon,
+.facebook-icon,
+.instagram-icon,
+.youtube-icon{
+	margin-top: .625em;
+	width: 40px;
+	height: 40px;
+	
+	
+  border-radius: 25px;
+}
+
+
+
+@media(min-width:992px){
+           
+
+}
+
+
+@media(min-width:768px) and (max-width:791){
+
+
+}
+
+
+@media(min-width:575px) and (max-width:767px)
+{
+
+    .rowsetting2{
+        height: 600px !important;
+    }
+    .g11 h2{
+        font-size: 21px;
+        font-weight: bold;
+        text-align: center;
+    }
+}
+
+
+@media(min-width:  480px) and (max-width:574px){
+
+    .g11 h2{
+        font-size: 23px;
+        font-weight: bold;
+        text-align: center;
+    }
+
+
+
+}
+
+
+@media(max-width:479px){
+
+    .g11{
+        height: 600px;
+    }
+
+    .g11 h2{
+        font-size: 18px;
+        font-weight: bold;
+    }
+    
+    .g11{
+        text-align: center;
+    }
+
+}
+
