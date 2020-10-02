@@ -1,6 +1,9 @@
 .navbar{ 
     background-color: pink;
 }
+.dark-mode {
+  background-color: black;
+  color: white;
 
 .middle{
     background-color: pink;
