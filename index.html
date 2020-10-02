@@ -6,6 +6,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="google-site-verification" content="Xgik49HdSwluTa67NTtKRB3F8DojWT2L_OcOerNpeQo" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
@@ -17,6 +18,13 @@
    
     <title>TRIBUTE TO DR. APJ ABDUL KALAM</title>
     <style>
+        body {
+  padding: 25px;
+  background-color: white;
+  color: black;
+  font-size: 25px;
+}
+        <button onclick="myFunction()">Toggle dark mode</button>
         
 
     </style>
@@ -226,6 +234,12 @@
         </footer>
     </section>
 
+    <script>
+function myFunction() {
+   var element = document.body;
+   element.classList.toggle("dark-mode");
+}
+</script>
 
 
 
