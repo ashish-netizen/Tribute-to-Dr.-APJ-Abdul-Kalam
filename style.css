@@ -1,13 +1,8 @@
 .navbar{ 
-    background-color: pink;
+    background-color:black;
 }
-.dark-mode {
-  background-color: black;
-  color: white;
 
-.middle{
-    background-color: pink;
-}
+
         .margin {
             margin-bottom: 45px;
             padding-top: 60px;
